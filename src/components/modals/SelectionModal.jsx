@@ -12,7 +12,7 @@ export default function SelectionModal() {
     }, [userData])
   return (
     <div className="selection modal">
-        <div className="content">
+        <div className="selection modal-content">
             <p>Avant de poursuivre veuillez choisir un utilisateur</p>
             <UserSelector />
         </div>

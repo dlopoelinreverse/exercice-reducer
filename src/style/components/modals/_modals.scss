@@ -1,7 +1,45 @@
 .modal {
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: rgba(118, 243, 206, 0.541);
     width: 100%;
     height: 100%;
-    top: 0;    
+    top: 0; 
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .selection {
+        align-items: center;
+        position: relative;
+        top: 10vh;  
+        height: 250px;
+        background-color: #fff;
+        max-width: 800px;
+        min-width: 200px;
+        padding: 20px 30px;
+        border: 10px solid sandybrown;
+        border-radius: 150px 40px 200px 50px;
+
+        p{
+            margin-bottom: 10px;
+        }
+        .user-selector-container {
+            margin-top: 30px;
+
+            select{
+                padding: 5px;
+                border-radius: 5px;
+            }
+        }
+    }
+    .edit-post {
+        max-width: 500px;
+        min-width: 200px;
+        
+    }   
 }

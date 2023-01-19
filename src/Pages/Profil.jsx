@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+import ProfilHeader from '../components/profil/ProfilHeader';
 
 export default function Profil() {
+  
   return (
-    <div>Profil</div>
+    <div className="profil page">
+      <ProfilHeader />
+    </div>
   )
 }
